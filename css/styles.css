@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    color: azure;
+    line-height: 1.6;
+}
+header
+{
+    background-color: blue;
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+}
+main
+{
+    padding: 20px;
+}
+.lienzo 
+{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.paleta{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+footer 
+{
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+    color: blueviolet;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
