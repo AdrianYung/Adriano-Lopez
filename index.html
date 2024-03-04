@@ -1,32 +1,42 @@
 <!DOCTYPE html>
+<!-- Lenguaje de la pagina en español -->
 <html lang="es">
     <head>
+        <!-- Codificación de caracteres estandar -->
         <meta charset="UTF-8">
+        <!-- Ajustar el viewport y controlar la escala en dispositivos móviles -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mi Aplicación Móvil</title>
+        <!-- Enlaza tu hoja de estilos CSS aquí -->
         <link rel="stylesheet" href="css/styles.css">
+       
+
     </head>
     <body>
+        <!-- Encabezado de la aplicación -->
         <header>
-            <h1><marquee>Paint para telefono</marquee></h1>
+            <h1><marquee>Paint para telefono</h1></marquee>
+            
         </header>
-
+        <!-- Contenido principal -->
         <main>
-            <canvas id="lienzo" width="400" height="400"></canvas>
-            <div id="paleta"></div>
+            <!-- Aquí colocarás el contenido específico de tu aplicación -->
+            <canvas id="lienzo" width="400" height="400" ></canvas>
+
+            <div id="paleta" ></div>
         </main>
 
+        <!-- Pie de página -->
         <footer>
             <p>&copy; 2024 </p>
         </footer>
+        <video autoplay muted loop>
+            <source src="video/DG.mp4" type="">
+            
+        </video>
 
-        <div class="video-container">
-            <video autoplay muted loop id="video-fondo">
-                <source src="video/DG.mp4" type="video/mp4">
-            </video>
-            <a href="https://youtu.be/erM8LJfhvAM?si=mpmAq1a_x3LyB-xb" target="_blank" class=""></a>
-        </div>
-
+        <!-- Scripts JavaScript -->
+        <!-- Coloca tus scripts al final del cuerpo para mejorar el rendimiento -->
         <script src="script/pintar.js"></script>
     </body>
 </html>
